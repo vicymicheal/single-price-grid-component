@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  min-width: 375px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 1.5rem;
+}
+
+.first {
+  background-color: white;
+  margin: 0;
+  padding: 22px 25px 18px 25px;
+  border-radius: 8px 8px 0 0;
+}
+
+.paragraph {
+  color: hsl(218, 22%, 67%);
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+.yellow {
+  color: hsl(71, 73%, 54%);
+  /* padding: 10px 15px; */
+  font-size: 1rem;
+}
+
+.header {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 1.5rem;
+}
+
+.second {
+  background-color: hsl(179, 62%, 43%);
+  padding: 10px 25px;
+  color: white;
+}
+
+.month {
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  color: hsl(204, 43%, 93%);
+}
+
+#dollar {
+  font-size: 1.9rem;
+  padding-bottom: 0.6rem;
+}
+span {
+  color: hsl(204, 43%, 93%);
+  font-size: 1rem;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.access {
+  padding-bottom: 1rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  padding: 1rem 0;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(71, 73%, 24%);
+  color: white;
+}
+
+.third {
+  background-color: hsl(179, 62%, 53%);
+  padding: 10px 105px 25px 25px;
+  border-radius: 0 0 8px 8px;
+}
+
+.why {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.tutorials {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 565px) {
+  .card {
+    max-width: 600px;
+  }
+  .flex {
+    display: flex;
+  }
+  .second {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0 0 0 8px;
+    width: 100rem;
+  }
+  .third {
+    border-radius: 0 0 8px 0;
+    padding-left: 40px;
+  }
+}
